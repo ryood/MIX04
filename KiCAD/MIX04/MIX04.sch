@@ -1092,39 +1092,6 @@ F 3 "" H 8550 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:NJM4580 U1
-U 1 1 60DAC50D
-P 7700 2300
-F 0 "U1" H 7700 2667 50  0000 C CNN
-F 1 "NJM4580" H 7700 2576 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 7700 2300 50  0001 C CNN
-F 3 "http://www.njr.com/semicon/PDF/NJM4580_E.pdf" H 7700 2300 50  0001 C CNN
-	1    7700 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:NJM4580 U1
-U 3 1 60E1BB45
-P 6700 5100
-F 0 "U1" H 6658 5146 50  0000 L CNN
-F 1 "NJM4580" H 6658 5055 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 6700 5100 50  0001 C CNN
-F 3 "http://www.njr.com/semicon/PDF/NJM4580_E.pdf" H 6700 5100 50  0001 C CNN
-	3    6700 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:NJM4580 U1
-U 2 1 60D7C4E0
-P 6200 3200
-F 0 "U1" H 6200 3567 50  0000 C CNN
-F 1 "NJM4580" H 6200 3476 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 6200 3200 50  0001 C CNN
-F 3 "http://www.njr.com/semicon/PDF/NJM4580_E.pdf" H 6200 3200 50  0001 C CNN
-	2    6200 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_POT RV1
 U 1 1 60D890D9
 P 5650 2400
@@ -1177,6 +1144,39 @@ F 1 "MountingHole" H 2700 6955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 7000 50  0001 C CNN
 F 3 "~" H 2600 7000 50  0001 C CNN
 	1    2600 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NJM4580 U1
+U 1 1 60DAC50D
+P 7700 2300
+F 0 "U1" H 7700 2667 50  0000 C CNN
+F 1 "NJM4580" H 7700 2576 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 7700 2300 50  0001 C CNN
+F 3 "http://www.njr.com/semicon/PDF/NJM4580_E.pdf" H 7700 2300 50  0001 C CNN
+	1    7700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NJM4580 U1
+U 3 1 60E1BB45
+P 6700 5100
+F 0 "U1" H 6658 5146 50  0000 L CNN
+F 1 "NJM4580" H 6658 5055 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 6700 5100 50  0001 C CNN
+F 3 "http://www.njr.com/semicon/PDF/NJM4580_E.pdf" H 6700 5100 50  0001 C CNN
+	3    6700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NJM4580 U1
+U 2 1 60D7C4E0
+P 6200 3200
+F 0 "U1" H 6200 3567 50  0000 C CNN
+F 1 "NJM4580" H 6200 3476 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 6200 3200 50  0001 C CNN
+F 3 "http://www.njr.com/semicon/PDF/NJM4580_E.pdf" H 6200 3200 50  0001 C CNN
+	2    6200 3200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
